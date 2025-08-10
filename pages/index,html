@@ -1,1 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+  <link rel="stylesheet" href="../Assets/styles.css">
+</head>
+
+<body>
+  <header id="header">
+    <nav class="navbar container">
+      <h2>My Portfolio</h2>
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+      <label for="menu-toggle" class="menu-btn">☰</label>
+      <ul class="nav-links">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+        
+      </ul>
+    </nav>
+  </header>
+
+  
+  <main>
+  <section class="about">
+    <div class="intro-text">
+      <img src="../Nicole.jpeg" class="card">
+      <h3>Hello, I'm Nicole B. Lauron.A BSIT student with a big dream.</h3>
+      
+    </div>
+    <div>
+        <center>
+        <a href="about.html"><button class="primary-button"> ABOUT ME</button></a>
+         <a href="contact.html"><button class ="secondary-button">CONTACT ME</button></a>
+        </center>
+      </div>
+  </section> 
+  </main>
+
+  <footer id="footer">
+    <div>
+      <p>© 2025 - Web Development. All rights</p>
+    </div>
+  </footer>
+</body>
+
+</html>
