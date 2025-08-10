@@ -1,1 +1,34 @@
+.list-container {
+  max-width: 300px;
+  margin: auto;
+  background: lightgray;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
 
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list li {
+  padding: 15px 20px;
+  border-bottom: 1px solid #eee;
+  transition: background 0.3s ease;
+  cursor: pointer;
+}
+
+.list li:last-child {
+  border-bottom: none;
+}
+
+.list li:hover {
+  background-color: #e8f0fe;
+}
+
+.list li span {
+  color: #333;
+  font-weight: 500;
+}
